@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css">
+
+    <title>portfolio</title>
+	
+	
+  </head>
+  
+  <body>
+        
+
+        <div class="container">
+		     <div class="row">
+			   <!---Menu start--->
+			   
+			     <div class="col-md-12 mt-3">
+				      <nav class="navbar navbar-expand-lg navbar-light" style="background-color:#33C0FF;">
+					  
+							  <div class="container-fluid">
+							  
+								<a class="navbar-brand" style="color:white;" href="#">Sunil</a>
+								
+								<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+								  <span class="navbar-toggler-icon"></span>
+								</button>
+								
+								<div class="collapse navbar-collapse" id="navbarSupportedContent">
+								  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+								  
+									<li class="nav-item">
+									  <a class="nav-link active" aria-current="page" style="color:white;" href="index.html">Home</a>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" style="color:white;" href="about.html">About</a>
+									</li>
+									<li class="nav-item dropdown">
+									  <a class="nav-link dropdown-toggle" style="color:white;" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+										Project
+									  </a>
+									  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+										<li><a class="dropdown-item"  href="project.html">Project1</a></li>
+										<li><a class="dropdown-item" href="project.html">Project2</a></li>
+										<!--<li><hr class="dropdown-divider"></li>--->
+										<li><a class="dropdown-item" href="project.html">Project3</a></li>
+										<li><a class="dropdown-item" href="project.html">Project4</a></li>
+									  </ul>
+									</li>
+									<li class="nav-item">
+									  <a class="nav-link" style="color:white;" href="contact.html">Contact</a>
+									</li>
+								  </ul>
+								  <form class="d-flex">
+									<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+									<button class="btn btn-outline-success" type="submit">Search</button>
+								  </form>
+								  
+								</div>
+								
+							  </div>
+							</nav>
+					   
+			   
+			   
+			    </div><!--Menu end--->
+				
+				
+				
+		<div class="col-md-12 mt-2">		
+		   <marquee scrollamount="4">
+            <span style="color:red;font-size:large;margin-right:40px;margin-top:2px">
+            "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+           </span>
+          </marquee>
+		</div>
+			
+			
+			     <!---Project title 1 details start-->
+				 
+			<div class="col-md-12 mt-2">
+			  <div class="card" style="width:100%;">
+			  <img src="love.jpeg" class="card-img-top" alt="..." height="600px">
+			  
+         </div>
+		 
+			</div>	
+			
+			<!--- project title 1 end--->
+			
+			<!----Jquery hide show option--->
+                 
+              <div class="col-md-6 mt-2">
+               <script src="jquery.min.js"></script>
+
+               <script>
+
+                       $(document).ready(function(){
+
+                           $("#btn").click(function(){
+
+
+                              if($("#para").is(':visible'))
+
+                             {
+
+                                 $("#para").fadeOut(1000);
+
+                                 $(this).val("Show");  
+
+                             }
+
+                            else if($("#para").not(':visible'))
+
+                             {
+
+                               $("#para").fadeIn(1000);
+
+                               $(this).val("Hide");
+
+                             }                            
+
+                           });      
+
+                       });
+
+                </script>
+
+           <h2 style="color:red">Amazingn tree</h2>
+
+             <p id="para" style="text-align:justify">
+
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+          </p>
+
+
+          <input type="button" value="Hide" id="btn" style="background-color:lightblue">
+         </div>  
+
+          <div class="col-md-6 mt-2">
+ 
+           <h2 style="color:red">Amazing tree</h2>
+
+             <p style="text-align:justify;">
+
+             Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+			 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum
+
+          </p>
+  
+         </div>   		 
+	  
+		  <!-----Jquery hide show End---->
+		  
+		  <div class="col-md-12 mt-2">		
+		   <marquee scrollamount="4">
+            <span style="color:red;font-size:large;margin-right:40px;margin-top:2px">
+            "If you are interested in visiting our place, please fill out this form."
+           </span>
+          </marquee>
+		</div>
+	 
+	   	<!----Table details strat---->
+		<div class="col-md-4 mt-2">
+               <form method="GET">
+							<table>
+						<tr>
+							 <td><label for="one" style="color:red">Name:</label></td>
+							 <td><input type="text" id="one" name="sname" placeholder="Enter Your Name" required></td>
+						</tr>
+						<tr>
+							  <td><label for="two" style="color:red">Contact No:</label></td>
+							  <td><input type="text" id="two" name="cname" placeholder="Enter Your Mobile no." required></td>
+							  
+						</tr>
+						<tr>
+							  <td><label for="three" style="color:red">Email i'd:</label></td>
+							  <td><input type="text" id="three" name="ename" placeholder="Enter Your Email Id" required></td>
+						 </tr>
+						 <tr>
+						     <td><label for="four" style="color:red">Requirement</label></td>
+							 <td><textarea name="uadd" id="four" cols="25"rows="9" placeholder="Enter your Requirments" required></textarea></td>
+						 </tr>	 
+						 
+						 
+						 <tr>
+						       <td><input type="Submit" value="Submit" class="button"</td>
+						 </tr>   
+ 
+							  </table>
+					        </form>
+			</div>
+
+			<!----Table details End---->
+             
+			 <!--Image Silder start--->
+			
+         <div class="col-md-8 mt-2">
+			
+			  <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			  
+						  <div class="carousel-inner">
+						  
+							<div class="carousel-item active">
+							  <img src="best.jpeg" class="d-block w-100" alt="..." height="350px">
+							</div>
+							
+							<div class="carousel-item">
+							  <img src="color.jpeg" class="d-block w-100" alt="..." height="350px">
+							</div>
+							
+							<div class="carousel-item">
+							  <img src="boll.jpeg" class="d-block w-100" alt="..." height="350px">
+							</div>
+							
+							<div class="carousel-item">
+							  <img src="tree.jpeg" class="d-block w-100" alt="..." height="350px">
+							</div>
+							
+						  </div>
+						  
+				  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Previous</span>
+				  </button>
+				  
+				  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="visually-hidden">Next</span>
+				  </button>
+				  
+				</div>
+			
+			
+			</div>
+			
+			<!--Image slider end-->	      
+             
+	
+		<!---Footer Start---->
+		
+		          <div class="col-md-4 mt-2 pt-3 bg-info text-center text-white" style="height:300px">
+				       Contact Details
+					 <h6>Call Us</h6>
+					 <a href="tel:+917084605789" style="text-decoration:none;">
+					 <p>7084605789</p>
+					 </a>
+					 
+					  <a href="tel:+911800-000-000" style="text-decoration:none;">
+					 <p>1800-000-000 (tollfree)</p>
+					 </a>
+					 
+					 <h6>Email Us</h6>
+					 
+					<a href="mailto:sunilsvsk54@gmail.com" style="text-decoration:none;">
+					 <p>sunilsvsk54@gmail.com</p>
+					 
+					 </a>
+					 
+				  </div>
+				  
+				  <div class="col-md-4 mt-2 pt-3 bg-info bg-info text-center text-white" style="height:300px">
+				          Quick Links
+						  <p><a href="project.html" style="text-decoration:none;">Project</a></p>
+						  
+						  <p><a href="contact.html" style="text-decoration:none;">Contact</a></p>
+						  
+						   <p><a href="about.html" style="text-decoration:none;">About</a></p>
+						  
+				  </div>
+				  
+				  <div class="col-md-4 mt-2 pt-3 bg-info bg-info text-center text-white" style="height:300px">
+				       Social Connect
+					   <p><h2><a href="http://www.facebook.com"><i class="bi bi-facebook"></i></h2></a></p>
+					   
+					    <p><h2><a href="http://www.twitter.com"><i class="bi bi-twitter"></i></h2></a></p>
+						
+						<p><h2><a href="http://api.whatsapp.com/send?phone=917084605789&text=Hi,I 
+			         saw your website and following are my requirements" target="_blank"><i class="bi bi-whatsapp"></i></h2></a></p>
+					 
+					 <p><h2><a href="http://www.instagram.com"><i class="bi bi-instagram"></i></h2></a></p>
+						
+				  </div>
+	
+		
+	     	<!---Footer End---->
+			 
+			 
+			 
+			 
+			 </div><!--Row end--->
+		
+		</div><!---cintainer end--->		
+	
+	
+	
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+   
+  </body>
+</html>
